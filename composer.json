@@ -1,0 +1,23 @@
+{
+    "name": "greenball/geoip",
+    "description": "Fetching geo location from IP Addresses. For Laravel 4.",
+    "keywords": ["laravel", "geo", "geoip", "ipaddress", "location"],
+    "licence": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Greenball",
+            "email": "hisoranger+greenball@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "laravel/framework": "4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Greenball\\GeoIP": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
